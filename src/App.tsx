@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './App.css'
 
 function App() {
-    console.log('테스트중')
+    useEffect(() => {
+        console.log('테스트중')
+    }, [])
 
     return (
         <div className="App">

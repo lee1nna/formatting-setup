@@ -1,7 +1,9 @@
 import React from 'react'
-import './App.css'
+import "'./App.css'"
 
 function App() {
+    console.log('하이')
+
     return (
         <div className="App">
             <header className="App-header">

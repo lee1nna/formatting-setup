@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css'
 
 function App() {
-    console.log('하이')
+    console.log('테스트중')
 
     return (
         <div className="App">
